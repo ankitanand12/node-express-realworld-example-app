@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/node
+    destination: /root/node
     overwrite: true
 hooks:
   AfterInstall:
