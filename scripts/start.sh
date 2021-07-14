@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/node
+cd /root/node
 npm install
 pm2 start npm --name backend -- start
