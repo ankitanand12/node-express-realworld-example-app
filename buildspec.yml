@@ -3,9 +3,9 @@ env:
   parameter-store: 
     MONGODBURL: "/ankit/mongo_url"
 phases:
-  pre_build:
-    commands:
-       - npm install
+  #pre_build:
+    #commands:
+       #- npm install
   build:
     commands:
        - sed -i 's/localhost/'$MONGODBURL'/' app.js
